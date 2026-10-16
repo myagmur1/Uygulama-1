@@ -21,7 +21,8 @@ namespace Uygulama_1
             string giris=Console.ReadLine();
             if (int.TryParse(giris, out int gun))
             {
-                bool oduncte = true;
+                bool oduncte = false;
+             
                 bool uygun = !oduncte && gun >= 1 && gun <= 7;
                 if (uygun)
                 {
